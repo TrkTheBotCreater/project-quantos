@@ -1,0 +1,8 @@
+[package]
+name = "project-quantos"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha3 = "0.10"
+rand = "0.8" # Sadece testler için
