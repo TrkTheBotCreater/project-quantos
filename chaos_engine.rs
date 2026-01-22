@@ -9,13 +9,13 @@ pub struct ChaosEngine {
 
 impl ChaosEngine {
     pub fn new(seed: [u8; 32]) -> Self {
-        // ... (Senin 'new' fonksiyonun buraya) ...
+        // ... ( 'new' fonksiyonu ) ...
         // Seed'den parametreleri türet
         Self { x: 0, y: 0, z: 0, w: 0, a: 176, b: 10, k: 5 } // Örnek
     }
 
     pub fn step(&mut self) {
-        // ... (Senin 'step' fonksiyonunu buraya yapıştır) ...
+        // ... ( 'step' fonksiyonu) ...
     }
 
     pub fn get_byte(&mut self) -> u8 {
@@ -24,7 +24,7 @@ impl ChaosEngine {
     }
 
     pub fn is_chaotic(&mut self) -> bool {
-        // ... (Senin Lyapunov Bekçisi kodunu buraya yapıştır) ...
+        // ... ( Lyapunov Bekçisi kodu) ...
         true
     }
 }
